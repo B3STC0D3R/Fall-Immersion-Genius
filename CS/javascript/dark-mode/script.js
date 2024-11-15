@@ -1,12 +1,12 @@
-const Darkness = document.body;
+const darkness = document.body;
 function darkMode() {
-  if(Darkness.style.backgroundColor === 'white'){
-    Darkness.style.backgroundColor = 'black';
-    Darkness.style.backgroundColor = 'white';
+  if(darkness.style.backgroundColor === 'white'){
+    darkness.style.backgroundColor = 'black';
+    darkness.style.color = 'white';
 
   }
   else{
-    Darkness.style.backgroundColor = 'white';
-    Darkness.style.color = 'black';
+    darkness.style.backgroundColor = 'white';
+    darkness.style.color = 'black';
   }
 }
